@@ -85,3 +85,5 @@ document.getElementById("label").innerHTML = "Item drawn : " + result[0].label;
 document.getElementById("confidence").innerHTML = 'Accuracy : ' + result[0].confidence;
   }
 }
+function clear() {background(255);}
+  
